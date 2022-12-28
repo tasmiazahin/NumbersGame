@@ -49,43 +49,6 @@
                             break;
                         }
 
-
-                    //}//break;
-
-                    //int number = random.Next(1, 20);
-
-                    //bool isGuessedRight = false;
-
-
-                    //for (int i = 0; i < 5; i++)
-                    //{
-
-                    //    var userinput = Console.ReadLine();
-                    //    int userValue= Convert.ToInt32(userinput);
-
-                    //    isGuessedRight = CheckGuess(number, userValue);
-
-                    //    if (isGuessedRight == true)
-                    //    {
-                    //        break;
-                    //    }
-
-
-                    //if (number>userValue)
-                    //{
-                    //    Console.WriteLine("Tyvärr du gissade för lågt!");
-                    //}
-                    //else if (number<userValue)
-                    //{
-                    //    Console.WriteLine("Tyvärr du gissade för högt!");
-                    //}
-                    //else if (number==userValue)
-                    //{
-                    //    isGuessedRight = true;
-                    //    Console.WriteLine("Woho! Du gjorde det!");
-
-                    //}
-
                     if (i == 4 && isGuessedRight == false)
                     {
                         Console.WriteLine("Sorry, you failed to guess the number in five tries!");
